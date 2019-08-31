@@ -3,7 +3,7 @@
 import json , sys , hashlib , os , time , marshal, getpass
 ###################################################################
 '''
-     Facebook Information 
+     Jangan Direcode ya bosku , tinggal make apa susahnya sih
 '''
 ###################################################################
 #                             COLOR
@@ -25,7 +25,7 @@ except ImportError:
 	print '(o o)'.center(44)
 	print 'ooO--(_)--Ooo'.center(44)
 	print W + ' '
-	print ('Partium - CocaineSquad').center(44)
+	print ('Partium').center(44)
 	print ' '
 	print "[!] Can't import module 'requests'\n"
 	sys.exit()
@@ -48,15 +48,22 @@ def baliho():
 		name = a['name']
 		n.append(a['name'])
 
-	except (KeyError,IOError):
-	 
 		print R + '_     _'.center(44)
 		print "o' \.=./ `o".center(44)
 		print '(o o)'.center(44)
 		print 'ooO--(_)--Ooo'.center(44)
 		print ' ' + W
-		print ('Partium - CocaineSquad').center(44)
-		print (W + '     [' + G +'Facebook Information'+ W + ']')
+		print ('[*] ' + name + ' [*]').center(44)
+		print ' '
+
+	except (KeyError,IOError):
+		print R + '_     _'.center(44)
+		print "o' \.=./ `o".center(44)
+		print '(o o)'.center(44)
+		print 'ooO--(_)--Ooo'.center(44)
+		print ' ' + W
+		print ('Partium').center(44)
+		print (W + '     [' + G +'Open Source Information Facebook'+ W + ']')
 		print ' '
 ####################################################################
 #		    Print In terminal
@@ -68,9 +75,11 @@ def show_program():
 
     Author     0x14
     Name       Partium
-    Version    Full Version
-    Date       08/04/2019 
-    Jabber     https://discord.gg/KTRrT82
+    CodeName   C++
+    version    v0.2
+    Date       16/05/2018 09:35:12
+    Team       0x14 Team
+    Email      0x14@hotmail.com
 
 * if you find any errors or problems , please contact
   author
@@ -476,7 +485,7 @@ def menu_reaction_ask():
   try:
 	global type
 
-	cek = raw_input(R + 'Hak9' + W + '/' + R + 'Bot' + W + '/' + R + 'Reaction' + W + ' >> ')
+	cek = raw_input(R + 'D3b2y' + W + '/' + R + 'Bot' + W + '/' + R + 'Reaction' + W + ' >> ')
 
 	if cek in ['1','01']:
 		type = 'LIKE'
@@ -558,7 +567,7 @@ def bot():
   try:
 	global type , message , id , WT , token
 
-	cek = raw_input(R + 'Hak9' + W +'/' + R +'Bot ' + W + '>> ')
+	cek = raw_input(R + 'D3b2y' + W +'/' + R +'Bot ' + W + '>> ')
 
 	if cek in ['1','01']:
 		menu_reaction()
@@ -911,7 +920,7 @@ def main():
   global target_id
 
   try:
-	cek = raw_input(R + 'Hak9' + W +' >> ')
+	cek = raw_input(R + 'D3b2y' + W +' >> ')
 
 	if cek.lower() == 'get_data':
 		if len(jml) == 0:
